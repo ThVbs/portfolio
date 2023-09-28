@@ -2,7 +2,7 @@
 -------------
 # Portfólio Senai
 - Código 60% autoral
-- Styles inspirados em "adilboudida"
+- Styles em boostrap e inspiração em outros códigos 
 
 -------------
 
