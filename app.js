@@ -46,3 +46,17 @@ const nav = document.querySelector("nav"),
 toggleBtn.addEventListener("click", () => {
     nav.classList.toggle("open");
 });
+
+    document.getElementById('translateButton').addEventListener('click', function() {
+        googleTranslateElementInit();
+    });
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'translate-target');
+    }
+
+
+
+    
+
+
