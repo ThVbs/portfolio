@@ -369,19 +369,7 @@
                 </a>
 
 
-                <a href="#Teste de sistemas5#">
-                    <div class="blog">
-                        <img src="img/blog5.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Systems testing | February 2022 to December 2023
-                            </h4>
-                            <p>
-                                Teacher Jackson Dener, Grade: Excellent
-                            </p>
-                        </div>
-                    </div>
-                </a>
+    
 
                 <a
                     href="https://www.canva.com/design/DAFvxC8cgpY/f6L8-DqSQBrgGx32mpvLEA/edit?utm_content=DAFvxC8cgpY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
@@ -578,94 +566,3 @@
 </body>
 
 </html>
-
-
-
-nav {
-    top: -111px;
-    right: -12px;
-    width: 80px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: grab;
-}
-
-nav .nav-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-content .toggle-btn,
-.nav-content span a {
-    height: 60px;
-    width: 60px;
-    background: #0a0a0a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    -webkit-box-shadow: var(--box-shadow-1);
-    box-shadow: var(--box-shadow-1);
-}
-
-.nav-content .toggle-btn {
-    font-size: 17px;
-    color: #ffffff;
-    z-index: 10;
-    cursor: pointer;
-    transform: rotate(0deg);
-    transition: all 0.6s ease;
-    -webkit-box-shadow: var(--box-shadow-1);
-    box-shadow: var(--box-shadow-1);
-}
-
-.nav-content span {
-    position: absolute;
-    transition: all 0.6s ease;
-    opacity: 0;
-    left: -5rem;
-}
-
-nav.open .nav-content span {
-    /*transform: rotate(calc(var(--i) * (360deg/8))) translateY(120px);*/
-    color: #ffffff;
-    opacity: 1;
-}
-
-.nav-content span a {
-    text-decoration: none;
-    /* transform: rotate(45deg); */
-}
-
-.nav-content span a i {
-    font-size: 24px;
-    color: #ffffff;
-    transform: rotate(calc(var(--i) * (360deg/ -8))) translateY(120px);
-    opacity: 0.8;
-    transition: 0.2s;
-}
-
-.nav-content span a:hover i {
-    opacity: 1;
-}
-
-.btn {
-    cursor: pointer;
-    background: transparent;
-    font-size: 1.1rem;
-}
-
-@media(max-width: 768px) {
-    .nav-content span {
-        top: -4.5rem!important;
-    }
-}
-
-@media(min-width: 768px) {
-    .nav-content span {
-        left: -5rem!important;
-    }
-}
